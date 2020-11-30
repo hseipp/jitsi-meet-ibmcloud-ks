@@ -18,8 +18,7 @@ Please note that with the free IBM Cloud Kubernetes cluster you can't get a nice
 Before running the script you need
 
 * An IBM Cloud Account - register for a free one [here](https://cloud.ibm.com).
-* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli). The kubectl and git 
-* A Bash shell with the following applications installed:
+* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli). The `kubectl` and `git` tools required by this script are installed with the IBM Cloud CLI. 
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
