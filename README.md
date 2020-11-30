@@ -8,22 +8,22 @@
 ## Scope
 
 The purpose of this project is to provide an example IBM Cloud Kubernetes Service use case.
-It provides a script that creates a free instance of IBM Cloud Kubernetes Service and installs a [Jitsi Meet][https://jitsi.org/]
+It provides a script that creates a free instance of IBM Cloud Kubernetes Service and installs a [Jitsi Meet](https://jitsi.org/)
 containerized instance on the Kubernetes cluster.
 
 ## Prerequisites
 
 Before running the script you need
 
-* An IBM Cloud Account - register for a free one [here][https://cloud.ibm.com].
-* The IBM Cloud CLI set up as described [here][https://cloud.ibm.com/docs/cli].
+* An IBM Cloud Account - register for a free one [here](https://cloud.ibm.com).
+* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli).
 * A Bash shell with the following applications installed:
-** git
+  * git
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
 
-Edit the [script][src/jitsi-iks-install.sh] to set the variables on top according to your needs.
+Edit the [script](src/jitsi-iks-install.sh) to set the variables on top according to your needs.
 Then navigate to a directory where the Jitsi Kubernetes deployment can be installed to.
 Start `jitsi-iks-install.sh` and enter your IBM Cloud credentials, then just wait a couple of minutes for the
 Kubernetes cluster getting created and the Jitsi Meet instance getting deployed.
@@ -37,7 +37,7 @@ There are dependencies on the versions of the IBM Cloud CLI and the docker-jitsi
 Changes to either of them might require adoption of the script.
 
 <!-- Questions can be useful but optional, this gives you a place to say, "This is how to contact this project maintainers or create PRs -->
-If you have any questions or issues you can create a new [issue here][https://github.com/hseipp/jitsi-meet-ibmcloud-ks/issues].
+If you have any questions or issues you can create a new [issue here](https://github.com/hseipp/jitsi-meet-ibmcloud-ks/issues).
 
 Pull requests are very welcome! Make sure your patches are well tested.
 Ideally create a topic branch for every separate change you make. For
@@ -51,7 +51,7 @@ example:
 
 ## Credits
 
-This project was only possible thanks to [Jitsi Meet][https://jitsi.org/] and [its Containerized variant][https://github.com/jitsi/docker-jitsi-meet] as Open Source projects.
+This project was only possible thanks to [Jitsi Meet](https://jitsi.org/) and [its Containerized variant](https://github.com/jitsi/docker-jitsi-meet) as Open Source projects.
 
 ## License
 
