@@ -11,14 +11,15 @@ The purpose of this project is to provide an example IBM Cloud Kubernetes Servic
 It provides a script that creates a free IBM Cloud Kubernetes Service cluster and installs a [Jitsi Meet](https://jitsi.org/)
 containerized instance on top of it.
 
+Please note that with the free IBM Cloud Kubernetes cluster you can't get a nice URL route for your application nor integrate certificate signing using "Let's Encrypt". "Let's Encrypt" requires the Jitsi Web server being accessible through port 80 or 443. To enable both functionalities, Ingress is required. Ingress is only available for IBM Cloud Kubernetes Standard clusters.
+
 ## Prerequisites
 
 Before running the script you need
 
 * An IBM Cloud Account - register for a free one [here](https://cloud.ibm.com).
-* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli).
+* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli). The kubectl and git 
 * A Bash shell with the following applications installed:
-  * git
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
@@ -27,8 +28,6 @@ Edit the [script](src/jitsi-iks-install.sh) to set the variables on top accordin
 Then navigate to a directory where the Jitsi Kubernetes deployment can be installed to.
 Start `jitsi-iks-install.sh` and enter your IBM Cloud credentials, then just wait a couple of minutes for the
 Kubernetes cluster getting created and the Jitsi Meet instance getting deployed.
-
-This repository contains some example best practices for open source repositories:
 
 <!-- A notes section is useful for anything that isn't covered in the Usage or Scope. Like what we have below. -->
 ## Notes
