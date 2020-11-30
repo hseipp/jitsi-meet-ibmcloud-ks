@@ -7,9 +7,9 @@
 <!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
 ## Scope
 
-The purpose of this project is to provide an example IBM Cloud Kubernetes Service use case.
-It provides a script that creates a free instance of IBM Cloud Kubernetes Service and installs a [Jitsi Meet](https://jitsi.org/)
-containerized instance on the Kubernetes cluster.
+The purpose of this project is to provide an example IBM Cloud Kubernetes Service use case that might be helpful for some during the pandemic.
+It provides a script that creates a free IBM Cloud Kubernetes Service cluster and installs a [Jitsi Meet](https://jitsi.org/)
+containerized instance on top of it.
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ example:
 
 ## Credits
 
-This project was only possible thanks to [Jitsi Meet](https://jitsi.org/) and [its Containerized variant](https://github.com/jitsi/docker-jitsi-meet) as Open Source projects.
+This project was only possible thanks to [Jitsi Meet](https://jitsi.org/) and [its Containerized variant](https://github.com/jitsi/docker-jitsi-meet) Open Source projects.
 
 ## License
 
