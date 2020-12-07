@@ -13,6 +13,8 @@ containerized instance on top of it.
 
 Please note that with the free IBM Cloud Kubernetes cluster you can't get a nice URL route for your application nor integrate certificate signing using "Let's Encrypt". "Let's Encrypt" requires the Jitsi Web server being accessible through port 80 or 443. To enable both functionalities, Ingress is required. Ingress is only available for IBM Cloud Kubernetes Standard clusters.
 
+So far only small conferences (1-3 participants) have been tested on the free IBM Cloud Kubernetes cluster. I'd expect issues with a large number of participants due to the limited worker node resources (2 vCPU, 4GB RAM) of the free service.
+
 ## Prerequisites
 
 Before running the script you need
