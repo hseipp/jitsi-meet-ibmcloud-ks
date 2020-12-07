@@ -20,7 +20,8 @@ So far only small conferences (1-3 participants) have been tested on the free IB
 Before running the script you need
 
 * An IBM Cloud Account - register for a free one [here](https://cloud.ibm.com).
-* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli). The `kubectl` and `git` tools required by this script are installed with the IBM Cloud CLI. 
+* The IBM Cloud CLI set up as described [here](https://cloud.ibm.com/docs/cli). The `kubectl` and `git` tools required by this script are installed with the IBM Cloud CLI.
+* The `jq` JSON parser program
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
