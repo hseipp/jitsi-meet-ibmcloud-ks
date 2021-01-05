@@ -12,12 +12,14 @@ CLUSTER_NAME="my-iks-cluster"
 # Get zones for free clusters with "ibmcloud ks zone ls --provider classic"
 ZONE="fra05"
 
-echo -n "Logging into your IBM Cloud Account"
+echo "Logging into your IBM Cloud Account"
 ibmcloud login -g Default
 # Deploy IKS cluster
-echo -n "Deploying IKS cluster"
+echo -n "Deploying IKS cluster..."
 ibmcloud ks cluster create classic --zone $ZONE --name $CLUSTER_NAME
 # wait for cluster to become ready
+echo "Waiting for cluster and worker node to become ready."
+echo -n "Grab a coffee or two, this can take 15 minutes or more..."
 STATE="notready"
 while [ $STATE != "normal" ]; do
     STATE=`ibmcloud ks cluster ls --output json | jq -r '.[0].state'`
